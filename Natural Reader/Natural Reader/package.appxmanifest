@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="35180SergeySeletsky.NaturalReader" Version="1.3.0.22" Publisher="CN=4C83C312-AC4A-4AEF-A75B-68A7BE18FA1F" />
+  <Properties>
+    <DisplayName>Natural Reader</DisplayName>
+    <PublisherDisplayName>SergeySeletsky</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="Natural Reader" Description="Natural Reader" ForegroundText="light" BackgroundColor="#4471C4" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile ShortName="Natural Reader">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="#4471C4" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

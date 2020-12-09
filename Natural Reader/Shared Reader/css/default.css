@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+}
+
+  .toolbarButton.play::before {
+    content: url(../images/play.png);
+  }
+
+  .toolbarButton.stop::before {
+    content: url(../images/stop.png);
+  }
+
+  .toolbarButton.pause::before {
+    content: url(../images/pause.png);
+  }
